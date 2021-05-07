@@ -21,11 +21,11 @@ Once the data was preprocessed, it was split into feature and target arrays. The
 
 ### Compiling, Training, and Evaluating the Model
 
-For the initial model, two hidden layers were used. The general rule when calculating the number of neurons in the hidden layer is two to three times the number of inputs. Becuase there were just over 40 inputs, he first layer had 80 neurons while the second layer contained 30. This firt model used relu functions for the hidden layers to help standardize and simplify the output while sigmoid was used for the output layer so the model could classify with a 0 or 1 and the optimizer used was adam. Unfortunately, the initial model did not produce a target performance of 75% or greater.
+For the initial model, two hidden layers were used. The general rule when calculating the number of neurons in the hidden layer is two to three times the number of inputs. Becuase there were just over 40 inputs, the first layer had 80 neurons while the second layer contained 30. This first model used relu functions for the hidden layers to help standardize and simplify the output while sigmoid was used for the output layer so the model could classify with a 0 or 1 and the optimizer used was adam. Unfortunately, the initial model did not produce a target performance of 75% or greater.
 
 ![Initial](Resources/Images/Initial.PNG)
 
-Optimization attempts were made to try to achieve the target model performance of 75% of greated. 
+Optimization attempts were made to try to achieve the target model performance of 75% of greater. 
 
 In the first optimization attempt, no changes were made to the target or feature variables from the original model. The number of neurons in the second layer was upped to 40 and a third hidden layer was added with 20 neurons. The activation for all hidden layers was changed from relu to sigmoid.
 
@@ -49,7 +49,7 @@ This model achieved a traget accuracy of greater than 75%, with a nearly 80% acc
 
 ![Optimization2](Resources/Images/Optimization2.PNG)
 
-A third optimization attempt was made to again try to achieved the target accuracy score. The target and feature variables from the very first model were used. Instead of 2 hidden layers, 4 were used. The first layer contained 200 neurons, the second 120, third 60, and fourth 60. The activation for the first two hidden layers was relu, while the tanh activation was used for the third and fourth and sigmoid for the output later.
+A third optimization attempt was made to again try to achieve the target accuracy score. The target and feature variables from the very first model were used. Instead of 2 hidden layers, 4 were used. The first layer contained 200 neurons, the second 120, third 60, and fourth 60. The activation for the first two hidden layers was relu, while the tanh activation was used for the third and fourth and sigmoid for the output later.
 
 ![Att3](Resources/Images/Att3.PNG)
 
