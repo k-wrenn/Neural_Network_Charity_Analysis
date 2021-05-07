@@ -1,10 +1,6 @@
 # Neural_Network_Charity_Analysis
 ## Overview 
-A binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup was created.
-
-Alphabet Soup’s business team sent a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. 
-
-This file contained several columns that captured data about each organization, such as identification columns, application type, special considerations, income classification, amount of funding requested, if the money was used effectively, and many more.
+A binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup was created. Alphabet Soup’s business team sent a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. This file contained several columns that captured data about each organization, such as identification columns, application type, special considerations, income classification, amount of funding requested, if the money was used effectively, and many more.
 
 ## Resources
 Data Source: [charity_data.csv](https://github.com/k-wrenn/Neural_Network_Charity_Analysis/blob/main/Resources/charity_data.csv)
